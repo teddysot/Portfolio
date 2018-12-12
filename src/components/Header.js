@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import pic from '../images/pic.jpg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -11,12 +10,13 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Saharat Nasahachart</h1>
                 <h1>(Teddy)</h1>
-                <p>Software Developer</p>
+                <p>Software Engineer</p>
             </div>
         </div>
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('portfolio')}}>Portfolio</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('portfoliovdo')}}>Portfolio VDO</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('resume')}}>Resume</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
