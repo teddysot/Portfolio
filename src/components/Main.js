@@ -102,6 +102,7 @@ class Main extends React.Component {
 
         <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Resume</h2>
+          <a href="https://docs.google.com/document/d/1f7Po-Tfq8PIGdj2hVRFHiA_DUFM78a4LL0i6nqcXq1M/edit?usp=sharing">Download Resume</a>
           <span className="image main"><img src={resumePic} alt="" /></span>
           <p></p>
           <span className="image main"><img src={resumePic2} alt="" /></span>
