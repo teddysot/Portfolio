@@ -112,7 +112,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <img src={profile} alt="" />
           <p>Hello Everyone,</p>
-          <p>My name is Saharat or Teddy. I just graduated from LaSalle College of Vancouver from Bachelor of Game Programming. 
+          <p>My name is Saharat or Teddy. I just graduated from LaSalle College of Vancouver from Bachelor of Science in Game Programming. 
             I have been living in Vancouver for around 6 years. In game development, I mostly like to do a gameplay part but sometime might be AI. 
             I usually use C++ and C# as my primary programming language.</p>
           <p>Thank you</p>
