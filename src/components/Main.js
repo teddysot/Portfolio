@@ -22,6 +22,10 @@ class Main extends React.Component {
           <iframe width="740" height="410"
           src="https://www.youtube.com/embed/48zPmKHvTdI">
           </iframe>
+          <p></p>
+          <iframe width="740" height="410"
+          src="https://www.youtube.com/embed/tco9LuRUAMs">
+          </iframe>
           <p>Made by Unreal Engine 4 (Blueprint/C++)</p>
           <p>WitchCraft VR is an action adventure game where you are a mage stuck in an alternate dimension. 
             You must figure out what happened to this world, while learning to use the powers you have gained here.</p>
@@ -95,7 +99,7 @@ class Main extends React.Component {
         <article id="portfoliovdo" className={`${this.props.article === 'portfoliovdo' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio Video</h2>
           <iframe width="740" height="410"
-          src="https://www.youtube.com/embed/vdPAum9DjvQ">
+          src="https://www.youtube.com/embed/hZ3-dOFysYQ">
           </iframe>
           {close}
         </article>
