@@ -28,6 +28,7 @@ const Header = (props) => (
             </div>
             <ul>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('zerofriction') }}>ZeroFricton</a></li>
+                <li><a href="javascript:;" onClick={() => { props.onOpenArticle('songoftheshield') }}>SONG OF THE SHIELD</a></li>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('witchcraft') }}>Witchcraft</a></li>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('rtsnetworking') }}>RTS GAME NETWORKING</a></li>
                 <li><a href="javascript:;" onClick={() => { props.onOpenArticle('aidemo') }}>AI DEMO</a></li>

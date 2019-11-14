@@ -31,6 +31,20 @@ class Main extends React.Component {
           {close}
         </article>
 
+        <article id="songoftheshield" className={`${this.props.article === 'songoftheshield' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">SONG OF THE SHIELD</h2>
+          <h3 className="major">TEAM PROJECT</h3>
+          <p>Made by Unity 2018 (C#)</p>
+          <p>A mysterious knight, travels within an abandoned crypt donning only a shield and her armor on a quest to find an all powerful sword.</p>
+          <p>Song of the Shield was a student project made within the time span of two months within Vancouver Film School’s Portfolio Project class, 
+            where we were taught the trials and tribulations of team work within the game industry. (by Miguel)
+          </p>
+          <p>I am an AI, UI and Audio Programmer in this project, I was using a state machine for all the AIs and Boss, which all of them spawned by spawners.
+            There are range and melee enemies in this game which I was using A* Unity NavMesh system for the pathfinding and attack orders of the AIs.
+          </p>
+          {close}
+        </article>
+
         <article id="witchcraft" className={`${this.props.article === 'witchcraft' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">WITCHCRAFT</h2>
           <h3 className="major">TEAM PROJECT</h3>
