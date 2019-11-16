@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import resumePic from '../images/resume.jpg'
 import resumePic2 from '../images/resume2.jpg'
 import wclogo from '../images/WitchcraftLogo.png'
+import zflogo from '../images/zflogo.png'
 import profile from '../images/profile1.png'
 
 class Main extends React.Component {
@@ -16,7 +17,7 @@ class Main extends React.Component {
         <article id="zerofriction" className={`${this.props.article === 'zerofriction' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">ZERO FRICTION</h2>
           <h3 className="major">TEAM PROJECT</h3>
-          <span className="image main"><img src={wclogo} alt="" /></span>
+          <span className="image main"><img src={zflogo} alt="" /></span>
           <p>Made by Unity 2019 (C#)</p>
           <p>Zero Friction is an online multiplayer hover bike racing game which can play up to four players per room. </p>
           <p>Zero Friction is a school production game made by Unity 2019 C# with Photon Engine PUN2 with a group of four students which took 5 months to make</p>
