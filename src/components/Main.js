@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import resumePic from '../images/resume.jpg'
-import resumePic2 from '../images/resume2.jpg'
+import resumePic from '../images/resume.png'
 import wclogo from '../images/WitchcraftLogo.png'
 import zflogo from '../images/zflogo.png'
 import profile from '../images/profile1.png'
@@ -29,6 +28,9 @@ class Main extends React.Component {
           <br></br>- Implemented user interface and main menu functionality
           <br></br>- Implemented power ups abilities
           </p>
+          <iframe width="740" height="410"
+            src="https://www.youtube.com/embed/gcAqCaZ9_-Q">
+          </iframe>
           {close}
         </article>
 
@@ -37,7 +39,7 @@ class Main extends React.Component {
           <h3 className="major">TEAM PROJECT</h3>
           <p>Made by Unity 2018 (C#)</p>
           <p>A mysterious knight, travels within an abandoned crypt donning only a shield and her armor on a quest to find an all powerful sword.</p>
-          <p>Song of the Shield was a student project made within the time span of two months within Vancouver Film School’s Portfolio Project class, 
+          <p>Song of the Shield was a student project made within the time span of two months within Vancouver Film School’s Portfolio Project class,
             where we were taught the trials and tribulations of team work within the game industry. (by Miguel)
           </p>
           <p>I am an AI, UI and Audio Programmer in this project, I was using a state machine for all the AIs and Boss, which all of them spawned by spawners.
@@ -114,10 +116,8 @@ class Main extends React.Component {
 
         <article id="resume" className={`${this.props.article === 'resume' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Resume</h2>
-          <a href="https://docs.google.com/document/d/1f7Po-Tfq8PIGdj2hVRFHiA_DUFM78a4LL0i6nqcXq1M/edit?usp=sharing">Download Resume</a>
+          <a href="https://drive.google.com/open?id=1iSpLzraIGBePXkkSiuHnGuA7LoZ5C6tL">Download Resume</a>
           <span className="image main"><img src={resumePic} alt="" /></span>
-          <p></p>
-          <span className="image main"><img src={resumePic2} alt="" /></span>
           {close}
         </article>
 
